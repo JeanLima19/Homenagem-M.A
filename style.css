@@ -59,13 +59,17 @@
 }
 
 .img {
+    width: 570;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 3rem;
+
 }
 
 .imagem {
+    width: 360px;
+    height: 485px;
     border: 2px solid #000;
     border-radius: 10px;
 }
