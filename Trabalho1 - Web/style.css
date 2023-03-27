@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.hero {
+    width: 100%;
+    background-color: #fff;
+}
+
+.nav-bar {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25%;
+    padding: 1.5rem 1.5rem;
+    background: rgb(200, 200, 200);
+}
+
+.nav-bar h1 {
+    font-size: 26px;
+    padding-right: 5%;
+}
+
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    transition: .4;
+}
+
+.nav-bar a:hover {
+
+    border-bottom: 1px solid #000;
+    transition: .4;
+}
+
+.biografia {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 3rem;
+
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.imagem {
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.imgText h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.imgText p {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.religiao {
+    padding: 3rem 3rem;
+}
+
+.luta {
+    padding: 3rem 3rem;
+}
+
+.luta h2 {
+    margin-bottom: 15%;
+}
+
+.luta .img {
+    flex-direction: column;
+}
+
+.luta .imagem {
+    width: 500px;
+    height: 685px;
+}
+
+.legado {
+    padding: 3rem 3rem;
+}
+
+.legado h2 {
+    margin-bottom: 15%;
+}
+
+.legado .img {
+    flex-direction: column;
+}
+
+blockquote {
+    font-size: 26px;
+    font-style: italic;
+    border-left: 5px solid #333;
+    padding-left: 10px;
+}
+
+footer {
+    margin-top: 5%;
+    padding: 3rem 3rem;
+    background: linear-gradient(75deg, rgb(0, 0, 0), rgb(100, 100, 100));
+}
+
+footer h3 {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
